@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.rjgc.cjh.Logic.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.rjgc.cjh.Logic.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Shopping</servlet-name>
+    <servlet-class>com.rjgc.cjh.Logic.Shopping</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Cart</servlet-name>
+    <servlet-class>com.rjgc.cjh.Logic.Cart</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PersonalData</servlet-name>
+    <servlet-class>com.rjgc.cjh.Logic.PersonalData</servlet-class>
+  </servlet>
+  
+  <welcome-file-list>
+  <welcome-file>LoginAndRegister/Index.jsp</welcome-file>  
+  </welcome-file-list>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Shopping</servlet-name>
+    <url-pattern>/Shopping</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Cart</servlet-name>
+    <url-pattern>/Cart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonalData</servlet-name>
+    <url-pattern>/PersonalData</url-pattern>
+  </servlet-mapping>
+
+</web-app>

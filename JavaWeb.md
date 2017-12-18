@@ -59,7 +59,7 @@ There is two option that are shopping and look up your order information
 ****
 __Finally,you can look up current customer's order information__
 
-![orderInfoPage](illustrateImg/customershopresult.png)
+![orderInfoPage](illustrateImg/customerShopResult.png)
 
 
 

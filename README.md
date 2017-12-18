@@ -8,12 +8,12 @@ __If you like,keep reading__
 ### Getting Started
 >As to myself,running in TomCat8.5,you can try something else
 
-###Download project
+### Download project
 <pre><code>
 git clone https://github.com/TypeInfos/GoodsSys.git
 </pre></code>
 
-###Sql Database And Table
+### Sql Database And Table
 Database:
 
 * userInfo
@@ -27,29 +27,29 @@ Table:
 
 **Of course,you download finder which include sql code**
 
-###Let's preview the renderings
+### Let's preview the renderings
 
-#####What manager can do
+##### What manager can do
 ![managerFunction](illustrateImg/manager.png)
 ****
 
 #####Enter add page
 ![addPage](illustrateImg/add.png)
 ****
-#####Enter delete
+##### Enter delete
 ![deletePage](illustrateImg/delete.png)
 Well,support vague query(just is __like %'_'%__)
 ****
-#####Enter query
+##### Enter query
 ![queryPage](illustrateImg/query.png)
 
 Well,update is the same as above that
 ****
-###Now is CustomerPage
+##### Now is CustomerPage
 
 There is two option that are shopping and look up your order information
 
-#####Shopping Page
+##### Shopping Page
 ![shoppingPage](illustrateImg/customerShopping.png)
 
 **I set a variable of session to check shopping cart whether goods in shopping cart by placed**

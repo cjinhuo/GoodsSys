@@ -33,7 +33,7 @@ Table:
 ![managerFunction](illustrateImg/manager.png)
 ****
 
-#####Enter add page
+##### Enter add page
 ![addPage](illustrateImg/add.png)
 ****
 ##### Enter delete

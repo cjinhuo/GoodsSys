@@ -1,4 +1,4 @@
-# Summery
+# Summary
 __a small project of javaweb without framework,it extremely suitable for novices.__
 
 __If you like,keep reading__
